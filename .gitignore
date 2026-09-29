@@ -1,0 +1,10 @@
+artifacts/
+__pycache__/
+*.pyc
+*.check.dll
+pipe_client.exe
+cli_demo_raw.jsonl
+mcp_live_evidence.json
+mcp_call_evidence.json
+.vs/
+*.user

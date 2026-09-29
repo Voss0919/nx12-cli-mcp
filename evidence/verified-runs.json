@@ -1,0 +1,178 @@
+{
+  "verification_date": "2026-09-29",
+  "scope": "NX 12 headless persistent process; visible GUI attachment not claimed",
+  "local_paths_redacted": true,
+  "batch": {
+    "inputs_mm": {
+      "outer_d": 40.0,
+      "bore_d": 16.0,
+      "height": 60.0
+    },
+    "body_count": 1,
+    "feature_count": 3,
+    "volume_mm3": 63334.507896370225,
+    "analytic_volume_mm3": 63334.50789637023,
+    "relative_error": 1.148814107167069e-16,
+    "independent_reopen_passed": true,
+    "native_part_sha256": "891b42f7c0570b8d8fd52e6000d1c7742a8756ecb2f83d5efb5939c6dac4defb"
+  },
+  "cli_live": {
+    "nx_pid": 2088,
+    "native_part_sha256": "6c0b35d0e1fd2ab163ffb5f30632c35f0b8159f8695f8a823b413bed7af64e5e",
+    "independent_reopen_passed": true,
+    "steps": [
+      {
+        "action": "start",
+        "response": [
+          "OK",
+          "2088",
+          "NO_PART"
+        ]
+      },
+      {
+        "action": "status",
+        "response": [
+          "OK",
+          "2088",
+          "NO_PART"
+        ]
+      },
+      {
+        "action": "create",
+        "response": [
+          "OK",
+          "2088",
+          "LIVE_TUBE",
+          "1",
+          "1",
+          "116333.17596243005"
+        ]
+      },
+      {
+        "action": "bore",
+        "response": [
+          "OK",
+          "2088",
+          "LIVE_TUBE",
+          "1",
+          "3",
+          "98520.345616575927"
+        ]
+      },
+      {
+        "action": "info",
+        "response": [
+          "OK",
+          "2088",
+          "LIVE_TUBE",
+          "1",
+          "3",
+          "98520.345616575927"
+        ]
+      },
+      {
+        "action": "save",
+        "response": [
+          "OK",
+          "2088",
+          "saved .prt (local path redacted)"
+        ]
+      }
+    ]
+  },
+  "mcp_live": {
+    "initialize_protocol": "2025-03-26",
+    "tool": "nx_live_session",
+    "nx_pid": 33076,
+    "steps": [
+      {
+        "action": "start",
+        "arguments": {},
+        "nx_pid": 33076,
+        "response": null,
+        "independent_reopen_passed": null
+      },
+      {
+        "action": "status",
+        "arguments": {},
+        "nx_pid": 33076,
+        "response": [
+          "OK",
+          "33076",
+          "NO_PART"
+        ],
+        "independent_reopen_passed": null
+      },
+      {
+        "action": "create",
+        "arguments": {
+          "outer_d": 50,
+          "height": 40
+        },
+        "nx_pid": 33076,
+        "response": [
+          "OK",
+          "33076",
+          "LIVE_TUBE",
+          "1",
+          "1",
+          "78539.816339744822"
+        ],
+        "independent_reopen_passed": null
+      },
+      {
+        "action": "bore",
+        "arguments": {
+          "bore_d": 18
+        },
+        "nx_pid": 33076,
+        "response": [
+          "OK",
+          "33076",
+          "LIVE_TUBE",
+          "1",
+          "3",
+          "68361.0561421139"
+        ],
+        "independent_reopen_passed": null
+      },
+      {
+        "action": "info",
+        "arguments": {},
+        "nx_pid": 33076,
+        "response": [
+          "OK",
+          "33076",
+          "LIVE_TUBE",
+          "1",
+          "3",
+          "68361.0561421139"
+        ],
+        "independent_reopen_passed": null
+      },
+      {
+        "action": "save",
+        "arguments": {},
+        "nx_pid": 33076,
+        "response": [
+          "OK",
+          "33076",
+          "saved .prt (local path redacted)"
+        ],
+        "independent_reopen_passed": true
+      },
+      {
+        "action": "stop",
+        "arguments": {},
+        "nx_pid": null,
+        "response": [
+          "OK",
+          "STOPPED"
+        ],
+        "independent_reopen_passed": null
+      }
+    ],
+    "native_part_sha256": "499a6519b94075eb47ac415aa9c94af6db4cea65296ddd40efe25c3f87b490c8",
+    "independent_reopen_passed": true
+  }
+}
